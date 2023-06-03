@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import AboutSection from "@/components/AboutSection";
 import FeaturesSection from "@/components/FeaturesSection";
+import ToursSection from "../components/ToursSection";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <main>
           <AboutSection />
           <FeaturesSection />
+          <ToursSection />
         </main>
       </main>
     </>
